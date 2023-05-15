@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>Kontakt</title>
+        <meta charset="utf-8">
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <header id="header">
+            <div id="banner">Webbutvecklarnas klubbhus</div>
+            <nav id="Hor">
+              <ul id="links">
+                <li class="headLink"><a class="LinkHead" href="../index.html">Nyheter</a></li>
+                <li class="headLink"><a class="LinkHead" href="../lokalen.html">Lokalen</a></li>
+                <li class="headLink"><a class="LinkHead" href="OmOss.html">Om oss</a></li>
+                <li class="headLink"><a class="LinkHead" href="../evenemang.html">Evenemang</a></li>
+              </ul>
+            </nav>
+      
+          </header>
+
+        <H1>Ansökan</H1>
+
+        <!--länk tillbaka till om oss-->
+        <p>
+            <a href="OmOss.html">Tillbaka till om oss</a>
+        </p>
+        
+        <h2>Process</h2>
+
+        <!--lista på vad man ska göra-->
+        <ol>
+            <li>Du skickar in din ansökan</li>
+            <li>Ansökan ligger till sig 2 veckor</li>
+            <li>Vi behandlar din ansökan</li>
+            <li>Inom 3 dagar behandlad ansökan får du svar i form av röksignaler</li>
+        </ol>
+
+        <h2>Ansökan</h2>
+
+        <!--startar formen som skickar alla svar-->
+        <form method="Post" action="https://wwwlab.iit.his.se/bjuj/webbplatsdesign/recieve/recieve_dugga.php">
+            <!--Information om personen namn åldre-->
+            <fieldset>
+                <legend>Person information</legend>
+                <div>
+                    <div>
+                        <label>
+                            Förnamn
+                            <input type="text" name="firstname" placeholder="Ditt förnamn">
+                        </label> 
+                    </div>
+
+                    <div>
+                        <label>
+                            Efternamn
+                            <input type="text" name="lastname" placeholder="Ditt efternamn">
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            Ålder
+                            <input type="number" name="age" placeholder="Din ålder">
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+            
+            <!--Information am villket jobb dom vill ha hur duktig dom är-->
+            <fieldset>
+                <legend>Din roll</legend>
+                <div>
+                    <div>
+                        Är du eftertänksam?
+                        <label>
+                            Ja 
+                            <input type="radio" name="thoughtful" value="Ja">
+                        </label>
+
+                        <label>
+                            Nej 
+                            <input type="radio" name="thoughtful" value ="Nej">
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            Hur duktig är du?
+                            <input type="range" name="skillful" max="11" min="1">
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            Villken roll vill du ha
+                            <select name="role">
+                                <option value="Front">Frontend</option>
+                                <option value="Back">Backend</option>
+                                <option value="Admin">Administrativ</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="EttUniktNamn">Om dig:</label>
+                    </div> 
+
+                    <textarea name="about" placeholder="Berätta om dig själv..." rows="12" cols="30" id="EttUniktNamn"></textarea>  
+
+
+                </div>
+            </fieldset>
+            <!--Frågar om vi kan få behålla informationen och om dom vill få nyhetsbrev-->
+            <fieldset>
+                <legend>Avslutandevis</legend>
+                <div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="savemypersonaldata" checked>
+                            Jag godkänner att ni sparar mina uppgifter.
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="checkbox" name="newsletter">
+                            Jag vill prenummerrea på nyhetsbrev.
+                        </label>
+
+                    </div>
+
+
+
+                    <input type="submit" name="skicka" value="Skickat">
+
+                </div>
+            </fieldset>
+
+            
+        </form>
+
+        <footer id="fot">
+            <div id="nere">
+              Adress:
+              <address>
+                Högskolevägen 1<br />
+                541 46 Skövde
+              </address>
+              <a id="His" href="https://his.se">Högskolan i Skövde</a>
+            </div>
+          </footer>
+
+    
+
+    </body>
+</html>

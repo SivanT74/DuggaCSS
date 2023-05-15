@@ -1,0 +1,228 @@
+#banner{
+    font-size: 55px;
+    font-family: 'Charm', cursive;
+    border-top: #000000 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#header{
+    background-color: #ec407a;
+    text-align: center;
+}
+
+#Hor{
+    display: flex;
+    margin: 0 auto;
+    display: inline;
+    text-align: center;
+}
+
+#links{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    list-style: none;
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+
+.even{
+    font-size: xx-large;
+    font-family: 'Abril Fatface', cursive;
+    padding-left: 1.5%;
+}
+
+.ram{
+    background-color: #9ccc65;
+    Border: 2px solid black;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 90%;
+    display: inline-block;
+}
+
+.linje{
+    white-space: pre;
+}
+
+#lanpic{
+    border-radius: 2%;
+}
+
+#lantxt{
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#lanparty{
+    position: relative;
+    text-align: center;
+}
+
+#aboutClubhouse{
+    overflow: auto;
+    width: 40%;
+    height: 150px;
+    position: relative;
+    left: 30%;
+}
+
+
+
+#bilder{
+    align-items: center;
+    display:flex;
+    left: 10%;
+}
+
+#tema{
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #ec407a, #880e4f, #9c27b0, #311b92);
+    display: flex;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+#tema:hover{
+    box-shadow: 10px 10px 5px #000000;
+}
+
+#fadder{
+    background-image: url(Sheep/sheep_150x150.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 150px 150px 150px 0px;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+#fadder:hover{
+    border-radius: 150px 0px 150px 150px;
+
+}
+
+#prog{
+    background-image: url(Sheep/sheep_150x150.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 150px 150px 0px 150px;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+#prog:hover{
+    border-radius: 0px 150px 150px 150px;
+}
+
+#his{
+    background-color: #880e4f;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-weight: 800;
+    transition: 1s;
+    width: 200px;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+#his:hover{
+    opacity: 1;
+}
+
+#tabel{
+    margin-left: 45%;
+}
+
+#Top{
+    border-top: #000000 2px solid;
+    background-color: #ec407a;
+}
+
+#Top2{
+    background-color: #9ccc65;
+}
+
+#Top3{
+    background-color: #ec407a;
+}
+
+#Top4{
+    background-color: #9ccc65;
+    border-bottom: #000000 2px solid
+}
+
+#fot{
+    background-color: #ec407a;
+}
+
+#nere{
+    color: white;
+}
+
+#His{
+    color: blue;
+    transition: 1s ;
+}
+
+#His:hover{
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.heaadLink{
+    transition: 1s;
+    color: inherit;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.LinkHead{
+    color: white;
+    text-decoration: none;
+    background-color: #9ccc65;
+    transition: 1s;
+    margin: 30px;
+}
+
+.LinkHead:hover{
+    background-color: #6b9b37;
+}
+
+.fab{
+    position: fixed;
+    bottom: 15px;
+    right: 45px;
+    border-radius: 50%;
+}
+
+.BacCol{
+    background-color: #ec407a;
+}
+
+#Tabe{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-collapse: collapse;
+}
